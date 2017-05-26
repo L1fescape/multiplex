@@ -1,0 +1,2 @@
+"use strict";!function(){function e(){document.getElementsByClassName("play-btn")[0].click()}function n(){document.getElementsByClassName("pause-btn")[0].click()}function t(e){var n=document.getElementsByClassName("player-slider-thumb")[1];s(n,e)}function s(e,n){var t=document.createEvent("MouseEvents");t.initMouseEvent("mousedown",!0,!0,window,0,0,0,80,0,!1,!1,!1,!1,0,null),e.dispatchEvent(t)}function a(s,a,c){var u=s.type,o=s.payload,i={play:e,pause:n,setSeekPercent:t};i[u]&&i[u](o)}chrome.runtime.onMessage.addListener(a)}();
+//# sourceMappingURL=contentscript.js.map
