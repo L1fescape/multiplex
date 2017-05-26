@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('\'Allo \'Allo! Content script');
-
 (function() {
   function play() {
     document.getElementsByClassName('play-btn')[0].click()
